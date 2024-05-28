@@ -1,0 +1,45 @@
+#header {
+    background-color: rgb(62, 58, 58);
+    height: 15vh; 
+
+    display: flex;
+    justify-content: space-between;
+}
+
+    #header_left {
+        margin: 1%;
+        position: relative;
+        background-color: red;
+        width: 25%; 
+    }
+
+    #header_right{
+        display: flex;
+        width: 40%; 
+    }
+
+    #header_button{
+        background-color: blue;
+        flex-grow: 1;
+
+        cursor: pointer;
+    }
+
+    #header_items {
+        background-color: greenyellow;
+        visibility: hidden;
+        flex-grow: 2;
+        
+        display: flex;
+        justify-content: space-around;
+    }
+
+        #about {
+            background-color: brown;
+            cursor: pointer;
+        }
+
+        #contact {
+            background-color: darkolivegreen;
+            cursor: pointer;
+    }
