@@ -1,0 +1,10 @@
+.fruit-container {
+
+    /* background-color: green; */
+
+    position: absolute;
+
+    top: 10%;
+    height: 10%; 
+    width: 20%; 
+}

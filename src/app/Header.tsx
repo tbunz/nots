@@ -9,7 +9,7 @@ import './Header.css'
 
 export default function Header() {
     gsap.registerPlugin(useGSAP);
-    const header = useRef<HTMLInputElement>(null);
+    const header = useRef(null);
     const { contextSafe } = useGSAP({ scope: header });
 
     const [headerActive, setHeader] = useState(false)

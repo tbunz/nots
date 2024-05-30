@@ -1,0 +1,21 @@
+.arrow-container {
+    /* background-color: blue; */
+
+    position: absolute;
+    width: 25%; 
+    height: 20%; 
+
+    display: flex;
+    justify-content: flex-end;
+
+
+    left: 20%; 
+    top: 10%; 
+}
+
+.pivot{
+    position: absolute;
+    
+    width: 70%; 
+    height: 100%; 
+}

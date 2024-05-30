@@ -9,7 +9,7 @@
     #header_left {
         margin: 1%;
         position: relative;
-        background-color: red;
+        /* background-color: red; */
         width: 25%; 
     }
 
@@ -19,14 +19,14 @@
     }
 
     #header_button{
-        background-color: blue;
+        /* background-color: blue; */
         flex-grow: 1;
 
         cursor: pointer;
     }
 
     #header_items {
-        background-color: greenyellow;
+        /* background-color: greenyellow; */
         visibility: hidden;
         flex-grow: 2;
         
@@ -35,11 +35,11 @@
     }
 
         #about {
-            background-color: brown;
+            /* background-color: brown; */
             cursor: pointer;
         }
 
         #contact {
-            background-color: darkolivegreen;
+            /* background-color: darkolivegreen; */
             cursor: pointer;
     }
